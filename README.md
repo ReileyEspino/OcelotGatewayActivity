@@ -1,0 +1,3 @@
+Which requests does the gateway reject before they reach a service, and why?
+
+The Ocelot API Gateway blocks access to protected endpoints, such as adding, updating, or deleting products and viewing orders, if the request has no valid JWT token. It also limits login attempts to five requests every 10 seconds and returns a 429 error if the limit is exceeded. Requests to routes that are not configured are blocked as well. These security features help protect the API, while viewing the product list remains accessible without authentication.

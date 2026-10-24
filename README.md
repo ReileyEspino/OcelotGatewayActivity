@@ -1,5 +1,3 @@
-# Ocelot Gateway Lab: One Door for Three Microservices
-
 **Course:** System Integration and Architecture II
 **Activity:** API Gateway with Ocelot (routing, JWT protection, rate limiting)
 
